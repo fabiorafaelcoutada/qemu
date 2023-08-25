@@ -8,6 +8,4 @@
     <remote fetch="https://github.com/kvm-riscv" name="kvm-riscv"/>
 
     <project name="qemu" path="qemu" remote="qemu-upstream" revision="master"/>
-    <project name="kvm" path="kvm" remote="kvm-upstream" revision="master">
-    </project>
 </manifest>

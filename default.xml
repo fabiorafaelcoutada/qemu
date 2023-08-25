@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <remote fetch="https://gitlab.com/qemu-project" name="qemu-upstream"/>
+    <remote fetch="https://github.com/avpatel" name="qemu-avpatel"/>
+    <remote fetch="https://github.com/alistair23" name="qemu-alistair"/>
+    <remote fetch="https://github.com/Xilinx" name="qemu-xilinx"/>
+    <remote fetch="git://git.kernel.org/pub/scm/virt/kvm" name="kvm-upstream"/>
+    <remote fetch="https://github.com/kvm-riscv" name="kvm-riscv"/>
+
+    <project name="qemu" path="qemu" remote="qemu-upstream" revision="master"/>
+    <project name="kvm" path="kvm" remote="kvm-upstream" revision="master">
+    </project>
+</manifest>
